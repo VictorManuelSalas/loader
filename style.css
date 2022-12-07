@@ -1,0 +1,19 @@
+*{
+    border: 0ch;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%; overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    margin: 1rem;
+}
+#loader{
+    width: 100%;
+   
+    height: 100vh;
+    background: rgb(255, 255, 255) url(./temple-loader.gif) no-repeat center center;
+    background-size: 5rem;
+    position: fixed;
+    z-index: 100;
+}
